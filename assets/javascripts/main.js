@@ -1,7 +1,7 @@
 $(document).ready(function(){
     console.log('Document ready!');
     // Carga solo en Index
-    if (window.location.href.indexOf('index') > -1) {
+   /* if (window.location.href.indexOf('index') > -1) {
         //Slider
         $('.galeria').bxSlider({
             mode: 'fade',
@@ -10,6 +10,8 @@ $(document).ready(function(){
             responsive: true,
             pager: true
         });
+    };
+    */
 
     // Selector de Temas
 

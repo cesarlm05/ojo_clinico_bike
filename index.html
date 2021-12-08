@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!-- Estilos -->
+
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"/>
+
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/menu.css">
     <title>Ojo Clínico Bike</title>
@@ -39,6 +46,56 @@
         </header>
 
         <!--Container-->
+
+        <div class="row">
+            <div class="col-8">
+                <!-- Slider -->
+                <div id="slider">
+                    <div class="galeria">
+                        <!--<img src="assets/img/ojo_clinico_bike.jpg" class="d-block w-100" title="Bike">-->
+                    </div>
+                </div>
+
+                <!-- Contenido -->
+
+                <div class="position-relative">
+                    <figure class="figure">
+                        <img src="assets/img/ojo_clinico_bike.jpg" class="figure-img img-fluid rounded" alt="...">
+                        <figcaption class="figure-caption">La bicicleta ya tiene más de un siglo y medio de historia
+                            y nunca ha sido tan actual. Se trata del medio de transporte más democrático y sano que
+                            existe, porque mantiene la salud de su cuerpo, del planeta y de su bolsillo, ya que es
+                            barato, no contaminante y una actividad física supercompleta!<br>
+                            Sea como medio de transporte, sea como forma de practicar ejercicios, o aún como el
+                            regalo de los sueños de los niños, la bicicleta juega un papel importante en nuestro día
+                            a día. Entonces, decidimos poner en marcha nuestro proyecto...<br>
+                            Se trata de un taller para hacer reparaciones y mantenimiento de bicicletas. Nuestros
+                            servicios prestados puede ser para la conservación de la bicicleta, a fin de evitar
+                            problemas y accidentes, o puede ser la reparación o cambio de alguna pieza, debido a un
+                            choque, mal uso, etc.<br>
+                            Ofrecemos a nuestros clientes soluciones ideales para resolver problemas simples o
+                            complejos que pueda presentar tu bici, nuestro obetivo es brindar siempre el mejor
+                            servicio.
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="col-4">
+                <!--aside-->
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/img/contact.png" class="card-img-top" alt="assests/img/logo.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">OJO CLÍNICO BIKE</h5>
+                        <p class="card-text">Comunicate por<br> Whatsapp 📱1173675483 ó Telegram 📱1122524460<br> y
+                            pedí tu turno
+                            👍<br>
+                            🌍Estamos a dos cuadras de Warnes y JB Justo...<br>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
         <div class="card-group">
             <div class="card">
                 <img src="assets/img/cleanParts.jpg" class="card-img-top" alt="...">
@@ -136,57 +193,9 @@
                 </div>
             </div>
 
-
-            <div class="row">
-                <div class="col-8">
-                    <!-- Slider -->
-                    <div id="slider">
-                        <div class="galeria">
-                            <!--<img src="assets/img/ojo_clinico_bike.jpg" class="d-block w-100" title="Bike">-->
-                        </div>
-                    </div>
-                    <!-- Contenido -->
-                    <div class="position-relative">
-                        <figure class="figure">
-                            <img src="assets/img/ojo_clinico_bike.jpg" class="figure-img img-fluid rounded" alt="...">
-                            <figcaption class="figure-caption">La bicicleta ya tiene más de un siglo y medio de historia
-                                y nunca ha sido tan actual. Se trata del medio de transporte más democrático y sano que
-                                existe, porque mantiene la salud de su cuerpo, del planeta y de su bolsillo, ya que es
-                                barato, no contaminante y una actividad física supercompleta!<br>
-                                Sea como medio de transporte, sea como forma de practicar ejercicios, o aún como el
-                                regalo de los sueños de los niños, la bicicleta juega un papel importante en nuestro día
-                                a día. Entonces, decidimos poner en marcha nuestro proyecto...<br>
-                                Se trata de un taller para hacer reparaciones y mantenimiento de bicicletas. Nuestros
-                                servicios prestados puede ser para la conservación de la bicicleta, a fin de evitar
-                                problemas y accidentes, o puede ser la reparación o cambio de alguna pieza, debido a un
-                                choque, mal uso, etc.<br>
-                                Ofrecemos a nuestros clientes soluciones ideales para resolver problemas simples o
-                                complejos que pueda presentar tu bici, nuestro obetivo es brindar siempre el mejor
-                                servicio.
-                            </figcaption>
-                        </figure>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <!--aside-->
-                    <div class="card" style="width: 18rem;">
-                        <img src="assets/img/contact.png" class="card-img-top" alt="assests/img/logo.jpg">
-                        <div class="card-body">
-                            <h5 class="card-title">OJO CLÍNICO BIKE</h5>
-                            <p class="card-text">Comunicate por<br> Whatsapp 📱1173675483 ó Telegram 📱1122524460<br> y
-                                pedí tu turno
-                                👍<br>
-                                🌍Estamos a dos cuadras de Warnes y JB Justo...<br>
-                            </p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
             <!--footer-->
             <footer>
-                <div class="card text-white bg-danger mb-3">
+                <div class="card text-white bg-danger mb-3" id="#">
                     <div class="card-header">
                         CONTACTO
                     </div>
@@ -203,6 +212,25 @@
             </footer>
         </div>
         <!--scripts-->
+
+        <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"
+      ></script>
+  
+      <script
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"
+      ></script>
+  
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"
+      ></script>
+
         <script src="assets/javascripts/main.js""></script>
 </body>
 
