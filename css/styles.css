@@ -71,11 +71,23 @@
   --bs-body-bg: #fff;
 }
 
+
+/* EStilos generales del proyecto */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+/*
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
+*/
 
 @media (prefers-reduced-motion: no-preference) {
   :root {
@@ -743,11 +755,14 @@ progress {
 .col {
   flex: 1 0 0%;
 }
+/* Mapa de Google */
 .col-lg-6 iframe {
   width: 60vh;
   height: 60vh;
   display: flex;
   justify-content: center;
+  border-radius: 30px;
+  border: #bb2d3b solid 2px;
 }
 
 .row-cols-auto > * {
