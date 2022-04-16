@@ -674,35 +674,26 @@ progress {
 
 @media (min-width: 576px) {
   .container-sm,
-  .container {
+  .container,
+  .col-lg-6 iframe  {
     max-width: 540px;
-  }
-  .col-lg-6 iframe {
-    width: 40vh;
-    height: 40vh;
   }
 }
 @media (min-width: 768px) {
   .container-md,
   .container-sm,
-  .container {
-    max-width: 720px;
-  }
+  .container,
   .col-lg-6 iframe {
-    width: 50vh;
-    height: 50vh;
+    max-width: 720px;
   }
 }
 @media (min-width: 992px) {
   .container-lg,
   .container-md,
   .container-sm,
-  .container {
-    max-width: 960px;
-  }
+  .container,
   .col-lg-6 iframe {
-    width: 50vh;
-    height: 50vh;
+    max-width: 960px;
   }
 }
 @media (min-width: 1200px) {
@@ -710,7 +701,8 @@ progress {
   .container-lg,
   .container-md,
   .container-sm,
-  .container {
+  .container,
+  .col-lg-6 iframe {
     max-width: 1140px;
   }
 }
@@ -720,7 +712,8 @@ progress {
   .container-lg,
   .container-md,
   .container-sm,
-  .container {
+  .container,
+  .col-lg-6 iframe {
     max-width: 1320px;
   }
 }
@@ -748,8 +741,8 @@ progress {
   flex: 1 0 0%;
 }
 .col-lg-6 iframe {
-  width: 80vh;
-  height: 80vh;
+  width: 60vh;
+  height: 60vh;
   display: flex;
   justify-content: center;
 }
