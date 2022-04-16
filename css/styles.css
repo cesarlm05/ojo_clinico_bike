@@ -266,11 +266,14 @@ sup {
 }
 
 a {
-  color: #0d6efd;
+  color: rgba(167, 0, 0, 0.861);
   text-decoration: underline;
 }
 a:hover {
-  color: #0a58ca;
+  color: rgb(255, 0, 0);
+  box-shadow: rgba(255, 0, 0, 0.807);
+  border-radius: 50px;
+  transform: scale(1.1);
 }
 
 a:not([href]):not([class]),
